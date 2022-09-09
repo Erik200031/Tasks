@@ -41,8 +41,8 @@ let solution = Solution()
 var numbers: Array<Int> = [1, 0, 5, 10, 7, -3]
 let testTargetOne = 7
 let testTargetTwo = 10
-var result = solution.twoSum(numbers, 7)
+var result = solution.twoSum(numbers, testTargetOne)
 print(result)
 numbers = [2, 4, 3, 6, 8, 5]
-result = solution.twoSumNoSpace(&numbers, 10)
+result = solution.twoSumNoSpace(&numbers, testTargetTwo)
 print(result)
