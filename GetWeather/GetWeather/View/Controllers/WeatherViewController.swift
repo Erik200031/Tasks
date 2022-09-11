@@ -1,6 +1,5 @@
 import UIKit
 import CoreLocation
-import Indicators
 
 class WeatherViewController: UIViewController {
 
